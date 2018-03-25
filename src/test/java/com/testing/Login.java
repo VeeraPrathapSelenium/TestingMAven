@@ -20,6 +20,7 @@ public class Login {
 		
 		driver.findElement(By.id("txtPassword")).sendKeys("pass1234");
 		driver.findElement(By.id("btnLogin")).click();
+		System.out.println("Launch");
 	}
 	
 	
